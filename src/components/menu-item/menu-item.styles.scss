@@ -1,0 +1,27 @@
+.menu-item {
+    height: 40px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+        
+    &:hover {
+      cursor: pointer;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+
+      &:hover{
+        color:grey;
+      }
+    }
+}
+
+.active{
+  color:yellow !important;
+}

@@ -1,0 +1,10 @@
+.about{
+    background-color: black;
+}
+.section{
+    font-size: 15px;
+    
+    &:first-child{
+        font-size: 20px;
+    }
+}
